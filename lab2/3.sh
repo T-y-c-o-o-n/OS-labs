@@ -1,3 +1,5 @@
 #!/bin/bash
 
-ps a u x | tail --lines=1 | awk '{ print $2 " - " $9 }'
+ps -eF | awk '{ if ($2 != '$$' && $3 != '$$') { print $2 " - " $8 } }' | tail --lines=1
+
+

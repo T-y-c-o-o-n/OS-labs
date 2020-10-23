@@ -9,7 +9,7 @@ then
 	no=0
 	for par;
 	do
-		let no=$no+1
+		let no++
 		echo "parameter $no = $par"
 	done
 fi

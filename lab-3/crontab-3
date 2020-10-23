@@ -1,0 +1,4 @@
+SHELL=/bin/sh
+
+*/5 * * * wed ~/lab3/1.sh
+

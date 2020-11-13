@@ -1,0 +1,64 @@
+#!/bin/bash
+
+###### Checking parameter correctness ######
+
+if [[ $# -ne 1 ]]; then
+	echo "Usage  $0 <filename>"
+	exit 0
+fi
+
+###### Key files and directory names ######
+
+trash="$HOME/.trash"
+log="$HOME/.trash.log"
+
+###### Searching for file in log ######
+
+echo "Searching for file..."
+
+if [[ $(grep -c -E "$1//" $log) -eq 0 ]]; then
+	echo "File in trash not found"
+else
+	echo "Chose the file you want to untrash:"
+	echo ""
+fi
+
+for line in $(grep -E "*/$1//" $log); do
+	file=$( echo "$line" | awk 'BEGIN{FS="//"} {printf $1}' )
+	link=$( echo "$line" | awk 'BEGIN{FS="//"} {printf $2}' )
+	echo "$file"
+	echo "Print 'yes' if you want this file"
+	{
+		read ans;
+		if [[ "$ans" == "yes" ]]; then
+			if [[ ! -d $(dirname $file) ]]; then
+				echo "directory $(dirname $file) doesn't exist, so the file will be untrashed into HOME directory: $HOME"
+				file=$HOME/$(basename $file)
+			fi	
+
+			while true; do
+				{
+					ln $trash/$link "$file"
+					rm $trash/$link
+					break;
+				} || {
+					echo "can't untrash file $file"
+					echo "(probably, this file already exists or file name is incorrect), write new file name:"
+					read name;
+					file=$(dirname $file)/name
+				}
+			done
+			
+			awk 'BEGIN{FS="//"} $2!="'$link'" {print $0}' $log > .tempLog
+			cat .tempLog > $log
+			rm .tempLog
+
+			echo "the file was successfully untrashed"
+			break;
+		fi
+	} || {
+		echo "can't untrash the file"
+		break;
+	}
+done
+

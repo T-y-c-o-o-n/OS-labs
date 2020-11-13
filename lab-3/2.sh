@@ -1,8 +1,7 @@
 #!/bin/bash
 
-{
-	sleep 10s
-	./1.sh
-} &
+
+sleep 2m
+./1.sh &
 tail -f ~/report
 

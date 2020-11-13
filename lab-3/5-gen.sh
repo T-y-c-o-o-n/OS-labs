@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#before starting run:
+# - mkfifo pipe
+
 while true; do
 	read line;
 	echo "$line" > pipe &

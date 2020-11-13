@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#before starting run:
+# - mkfifo pipe
+
 mode="add"
 val=1
 (tail -f pipe) |

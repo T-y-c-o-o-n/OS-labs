@@ -1,5 +1,5 @@
 #!/bin/bash
 
-mkdir test && echo "catalog test was created successfully" > ~/report	
-ping www.net_nikogo.ru || echo "Date_Time: $(date) can't ping host www.net_nikogo.ru\n" >> ~/report
+mkdir test 2> /dev/null && echo "catalog test was created successfully" > ~/report	
+ping www.net_nikogo.ru 2> /dev/null || echo "Date_Time: $(date +%F_%R) can't ping host www.net_nikogo.ru" >> ~/report
 

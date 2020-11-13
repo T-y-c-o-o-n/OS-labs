@@ -1,4 +1,4 @@
 SHELL=/bin/sh
 
-*/5 * * * wed ~/lab3/1.sh
+*/5 * * * wed ~/lab-3/1.sh
 

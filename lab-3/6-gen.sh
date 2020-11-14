@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#before starting run 6-obr.sh
+
 pid=$(cat .pid)
 while read line; do
 	case "$line" in
@@ -10,7 +12,7 @@ while read line; do
 			kill -USR2 $pid
 			;;
 		"TERM" )
-			kill -TERM $pid
+			kill -SIGTERM $pid
 			break
 			;;
 	esac

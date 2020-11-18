@@ -23,17 +23,18 @@ else
 	echo ""
 fi
 
-for line in $(grep -E "*/$1//" $log); do
+grep -E "*/$1//" $log |
+while read line; do
 	file=$( echo "$line" | awk 'BEGIN{FS="//"} {printf $1}' )
 	link=$( echo "$line" | awk 'BEGIN{FS="//"} {printf $2}' )
 	echo "$file"
 	echo "Print 'yes' if you want this file"
 	{
-		read ans;
+		read ans < /dev/tty;
 		if [[ "$ans" == "yes" ]]; then
-			if [[ ! -d $(dirname $file) ]]; then
+			if [[ ! -d "$(dirname "$file")" ]]; then
 				echo "directory $(dirname $file) doesn't exist, so the file will be untrashed into HOME directory: $HOME"
-				file=$HOME/$(basename $file)
+				file=$HOME/$(basename "$file")
 			fi	
 
 			while true; do
@@ -44,8 +45,8 @@ for line in $(grep -E "*/$1//" $log); do
 				} || {
 					echo "can't untrash file $file"
 					echo "(probably, this file already exists or file name is incorrect), write new file name:"
-					read name;
-					file=$(dirname $file)/name
+					read name < /dev/tty;
+					file=$(dirname "$file")/name
 				}
 			done
 			

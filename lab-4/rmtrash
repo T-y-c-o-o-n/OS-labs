@@ -1,0 +1,44 @@
+#!/bin/bash
+
+###### Checking parameter correctness ######
+
+fileToRm="$PWD/$1"
+
+if [[ $# -ne 1 || ! -f "$fileToRm" ]]; then
+	echo "Usage   $0 <filename>"
+	exit 0
+fi
+
+###### Key file and directory names #####
+
+trash="$HOME/.trash"
+log="$HOME/.trash.log"
+
+###### Checking key files and directory ######
+
+if [[ ! -d "$trash" ]]; then
+	mkdir $trash
+fi
+
+if [[ ! -f "$log" ]]; then
+	touch $log
+fi
+
+###### Saving hard link and removing file ######
+
+let no=0
+while true; do
+	if [[ ! -f "$trash/link-$no" ]]; then
+		break;
+	fi
+	let no+=1
+done
+linkName="link-$no"
+
+ln "$fileToRm" $trash/$linkName
+rm "$fileToRm"
+
+###### Log record ######
+
+echo "$fileToRm//$linkName" >> $log
+

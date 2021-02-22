@@ -1,0 +1,1055 @@
+MemTotal:        3890848 kB
+SwapCached:         7720 kB
+PageSize:           4096
+MemAvailable:    1267824 kB
+
+Первый этап
+
+
+system memory:
+MiB Mem :   3799,7 total,    764,1 free,   1864,6 used,   1171,0 buff/cache
+MiB Swap:   2048,0 total,   1994,0 free,     54,0 used.   1558,0 avail Mem 
+working script:
+   7603 tycoon    20   0  172384 166100   2960 R 100,0   4,3   0:19.66 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  173968 167420   2960 R  93,8   4,3   0:19.83 mem.bash
+   7625 tycoon    20   0   11856   4052   3336 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200  11616   8204 S   0,0   0,3   0:04.55 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    678,2 free,   1950,6 used,   1170,9 buff/cache
+MiB Swap:   2048,0 total,   1994,0 free,     54,0 used.   1472,1 avail Mem 
+working script:
+   7603 tycoon    20   0  261484 255068   2960 R 100,0   6,6   0:30.33 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  263068 256652   2960 R  94,1   6,6   0:30.51 mem.bash
+   7638 tycoon    20   0   11856   3848   3132 R  11,8   0,1   0:00.02 top
+      1 root      20   0  176200  11616   8204 S   0,0   0,3   0:04.55 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    591,3 free,   2037,6 used,   1170,7 buff/cache
+MiB Swap:   2048,0 total,   1994,0 free,     54,0 used.   1385,3 avail Mem 
+working script:
+   7603 tycoon    20   0  351112 344828   2960 R  88,2   8,9   0:41.04 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  352696 346148   2960 R  93,8   8,9   0:41.22 mem.bash
+   2174 tycoon    20   0 4157912 232084  75332 S   6,2   6,0   2:40.90 gnome-shell
+      1 root      20   0  176200  11616   8204 S   0,0   0,3   0:04.55 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    517,0 free,   2111,8 used,   1170,9 buff/cache
+MiB Swap:   2048,0 total,   1994,0 free,     54,0 used.   1310,9 avail Mem 
+working script:
+   7603 tycoon    20   0  440608 434324   2960 R  93,8  11,2   0:51.75 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  442192 435644   2960 R  94,1  11,2   0:51.94 mem.bash
+   4964 tycoon    20   0  821752  56972  39064 S   5,9   1,5   0:35.27 gnome-terminal-
+   7663 tycoon    20   0   11856   3712   3252 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200  11616   8204 S   0,0   0,3   0:04.55 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    429,3 free,   2198,9 used,   1171,5 buff/cache
+MiB Swap:   2048,0 total,   1994,0 free,     54,0 used.   1223,3 avail Mem 
+working script:
+   7603 tycoon    20   0  529972 523556   2960 R  93,8  13,5   1:02.46 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  531424 525140   2960 R 100,0  13,5   1:02.64 mem.bash
+   2174 tycoon    20   0 4157896 232136  75408 S   6,2   6,0   2:41.08 gnome-shell
+   7675 tycoon    20   0   11856   3720   3256 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200  11616   8204 S   0,0   0,3   0:04.55 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    341,1 free,   2287,6 used,   1171,0 buff/cache
+MiB Swap:   2048,0 total,   1994,0 free,     54,0 used.   1135,1 avail Mem 
+working script:
+   7603 tycoon    20   0  619600 613316   2960 R  88,2  15,8   1:13.12 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  621184 614636   2960 R  93,8  15,8   1:13.30 mem.bash
+   2174 tycoon    20   0 4157912 232116  75436 S   6,2   6,0   2:41.18 gnome-shell
+   7687 tycoon    20   0   11856   3808   3344 R   6,2   0,1   0:00.02 top
+      1 root      20   0  176200  11616   8204 S   0,0   0,3   0:04.56 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    254,5 free,   2374,2 used,   1171,0 buff/cache
+MiB Swap:   2048,0 total,   1994,0 free,     54,0 used.   1048,4 avail Mem 
+working script:
+   7603 tycoon    20   0  709360 703076   2960 R 100,0  18,1   1:23.80 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  710944 704396   2960 R  88,2  18,1   1:23.98 mem.bash
+   4964 tycoon    20   0  821752  56972  39064 S   5,9   1,5   0:35.35 gnome-terminal-
+      1 root      20   0  176200  11616   8204 S   0,0   0,3   0:04.56 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    164,9 free,   2463,9 used,   1170,9 buff/cache
+MiB Swap:   2048,0 total,   1994,0 free,     54,0 used.    958,9 avail Mem 
+working script:
+   7603 tycoon    20   0  799120 792836   2960 R  94,1  20,4   1:34.47 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  800704 794156   2960 R  88,2  20,4   1:34.65 mem.bash
+   7713 tycoon    20   0   11856   3724   3264 R  11,8   0,1   0:00.02 top
+   4964 tycoon    20   0  821752  56972  39064 S   5,9   1,5   0:35.37 gnome-terminal-
+      1 root      20   0  176200  11616   8204 S   0,0   0,3   0:04.56 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    114,4 free,   2548,3 used,   1137,0 buff/cache
+MiB Swap:   2048,0 total,   1994,0 free,     54,0 used.    874,9 avail Mem 
+working script:
+   7603 tycoon    20   0  888616 882068   2960 R 100,0  22,7   1:45.17 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  890068 883652   2960 R  94,1  22,7   1:45.35 mem.bash
+   7727 tycoon    20   0   11856   3952   3236 R  11,8   0,1   0:00.02 top
+      1 root      20   0  176200  11600   8188 S   0,0   0,3   0:04.56 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    123,3 free,   2635,9 used,   1040,5 buff/cache
+MiB Swap:   2048,0 total,   1991,2 free,     56,8 used.    790,2 avail Mem 
+working script:
+   7603 tycoon    20   0  977716 971300   2960 R  88,2  25,0   1:55.84 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0  979168 972620   2960 R  88,2  25,0   1:56.01 mem.bash
+   2019 tycoon    20   0  904416  69308  36224 S   5,9   1,8   2:02.62 Xorg
+   2174 tycoon    20   0 4157912 230952  74196 S   5,9   5,9   2:41.43 gnome-shell
+   7739 tycoon    20   0   11856   3792   3332 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200  11388   7976 S   0,0   0,3   0:04.56 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    116,0 free,   2720,3 used,    963,3 buff/cache
+MiB Swap:   2048,0 total,   1990,0 free,     58,0 used.    706,8 avail Mem 
+working script:
+   7603 tycoon    20   0 1066420   1,0g   2960 R  88,2  27,2   2:06.48 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1068004   1,0g   2960 R  88,2  27,3   2:06.66 mem.bash
+   7751 tycoon    20   0   11856   3708   3244 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200  11388   7976 S   0,0   0,3   0:04.56 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    109,2 free,   2808,3 used,    882,2 buff/cache
+MiB Swap:   2048,0 total,   1988,7 free,     59,2 used.    619,1 avail Mem 
+working script:
+   7603 tycoon    20   0 1155784   1,1g   2960 R 100,0  29,5   2:17.20 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1157236   1,1g   2960 R  88,2  29,6   2:17.38 mem.bash
+   6999 tycoon    20   0 1783732 328708 125716 S  11,8   8,4   0:40.63 telegram-deskto
+   2019 tycoon    20   0  905132  65224  32140 S   5,9   1,7   2:02.73 Xorg
+   7764 tycoon    20   0   11856   3972   3252 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200  11388   7976 S   0,0   0,3   0:04.56 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    119,8 free,   2896,1 used,    783,8 buff/cache
+MiB Swap:   2048,0 total,   1985,7 free,     62,2 used.    534,5 avail Mem 
+working script:
+   7603 tycoon    20   0 1245280   1,2g   2960 R  87,5  31,8   2:27.92 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1246864   1,2g   2960 R  94,1  31,9   2:28.11 mem.bash
+   2019 tycoon    20   0  904236  62916  29832 S   5,9   1,6   2:02.75 Xorg
+   7777 tycoon    20   0   11856   3704   3240 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200  11388   7976 S   0,0   0,3   0:04.56 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    107,1 free,   2982,1 used,    710,4 buff/cache
+MiB Swap:   2048,0 total,   1984,7 free,     63,2 used.    448,8 avail Mem 
+working script:
+   7603 tycoon    20   0 1334908   1,3g   2960 R  94,1  34,1   2:38.68 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1336360   1,3g   2960 R  94,1  34,2   2:38.87 mem.bash
+     88 root      20   0       0      0      0 S  11,8   0,0   0:02.06 kswapd0
+   2019 tycoon    20   0  904604  62616  29532 S   5,9   1,6   2:02.81 Xorg
+   2174 tycoon    20   0 4157928 209560  52808 S   5,9   5,4   2:41.71 gnome-shell
+   7789 tycoon    20   0   11856   3728   3264 R   5,9   0,1   0:00.01 top
+
+system memory:
+MiB Mem :   3799,7 total,    129,1 free,   3069,6 used,    601,0 buff/cache
+MiB Swap:   2048,0 total,   1979,2 free,     68,8 used.    366,6 avail Mem 
+working script:
+   7603 tycoon    20   0 1424668   1,4g   2960 R  88,2  36,5   2:49.46 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1426120   1,4g   2960 R  88,2  36,5   2:49.64 mem.bash
+      1 root      20   0  176200  11372   7976 S   0,0   0,3   0:04.56 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+
+system memory:
+MiB Mem :   3799,7 total,    123,1 free,   3152,9 used,    523,7 buff/cache
+MiB Swap:   2048,0 total,   1973,2 free,     74,8 used.    285,0 avail Mem 
+working script:
+   7603 tycoon    20   0 1512844   1,4g   2780 R  88,2  38,7   3:00.04 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1514296   1,4g   2780 R  93,8  38,7   3:00.21 mem.bash
+    178 root       0 -20       0      0      0 I   6,2   0,0   0:00.61 kworker/0:1H-events_highpri
+   2174 tycoon    20   0 4157896 200492  43732 S   6,2   5,2   2:41.86 gnome-shell
+   4964 tycoon    20   0  821752  41932  24024 S   6,2   1,1   0:35.58 gnome-terminal-
+   7817 tycoon    20   0   11856   3600   3140 R   6,2   0,1   0:00.01 top
+
+system memory:
+MiB Mem :   3799,7 total,    116,1 free,   3236,1 used,    447,4 buff/cache
+MiB Swap:   2048,0 total,   1970,7 free,     77,2 used.    202,4 avail Mem 
+working script:
+   7603 tycoon    20   0 1601680   1,5g   2780 R  94,1  41,0   3:10.67 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1603132   1,5g   2780 R  93,8  41,0   3:10.85 mem.bash
+   2174 tycoon    20   0 4157912 193928  37248 S   6,2   5,0   2:41.97 gnome-shell
+   7829 tycoon    20   0   11856   3792   3332 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200  10520   7200 S   0,0   0,3   0:04.56 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    107,2 free,   3317,2 used,    375,3 buff/cache
+MiB Swap:   2048,0 total,   1964,0 free,     84,0 used.    121,2 avail Mem 
+working script:
+   7603 tycoon    20   0 1689856   1,6g   2780 R 100,0  43,3   3:21.32 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1691440   1,6g   2780 R  88,9  43,3   3:21.52 mem.bash
+     88 root      20   0       0      0      0 S  16,7   0,0   0:02.49 kswapd0
+   2019 tycoon    20   0  908844  45320  24364 S   5,6   1,2   2:03.42 Xorg
+   2174 tycoon    20   0 4157904 186824  30084 S   5,6   4,8   2:42.35 gnome-shell
+   7843 tycoon    20   0   11856   3988   3272 R   5,6   0,1   0:00.01 top
+
+system memory:
+MiB Mem :   3799,7 total,    108,0 free,   3409,0 used,    282,7 buff/cache
+MiB Swap:   2048,0 total,   1957,7 free,     90,2 used.     69,2 avail Mem 
+working script:
+   7603 tycoon    20   0 1782124   1,7g   2780 R 100,0  45,6   3:32.44 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1783708   1,7g   2780 R 100,0  45,7   3:32.64 mem.bash
+     88 root      20   0       0      0      0 R  11,8   0,0   0:02.68 kswapd0
+      1 root      20   0  176200   7924   4744 S   0,0   0,2   0:04.57 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    106,0 free,   3477,3 used,    216,4 buff/cache
+MiB Swap:   2048,0 total,   1928,2 free,    119,8 used.     40,2 avail Mem 
+working script:
+   7603 tycoon    20   0 1873336   1,8g   2528 R  94,1  48,0   3:43.40 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1876900   1,8g   2528 R  36,4  48,1   3:43.86 mem.bash
+     88 root      20   0       0      0      0 S  11,4   0,0   0:03.01 kswapd0
+     10 root      20   0       0      0      0 S   2,3   0,0   0:00.39 ksoftirqd/0
+   2174 tycoon    20   0 4157904 175980  23184 S   2,3   4,5   2:42.55 gnome-shell
+   7876 tycoon    20   0   11856   3968   3248 R   2,3   0,1   0:00.01 top
+
+system memory:
+MiB Mem :   3799,7 total,    110,0 free,   3482,5 used,    207,2 buff/cache
+MiB Swap:   2048,0 total,   1814,0 free,    234,0 used.     47,0 avail Mem 
+working script:
+   7603 tycoon    20   0 1979992   1,9g   1656 R 100,0  50,7   3:56.38 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 1981312   1,9g   1656 R  93,8  50,7   3:56.55 mem.bash
+   2019 tycoon    20   0  908708  38556  20932 S  12,5   1,0   2:03.68 Xorg
+   7891 tycoon    20   0   11856   3852   3136 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   4524   1912 S   0,0   0,1   0:04.58 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    106,5 free,   3503,4 used,    189,8 buff/cache
+MiB Swap:   2048,0 total,   1737,5 free,    310,5 used.     33,7 avail Mem 
+working script:
+   7603 tycoon    20   0 2074372   2,0g   1648 R 100,0  53,1   4:07.70 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 2075824   2,0g   1648 R  93,8  53,1   4:07.88 mem.bash
+     88 root      20   0       0      0      0 S   6,2   0,0   0:03.62 kswapd0
+   2019 tycoon    20   0  904216  30936  20720 S   6,2   0,8   2:03.74 Xorg
+   7903 tycoon    20   0   11856   3952   3236 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   4328   1812 S   0,0   0,1   0:04.58 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    110,8 free,   3500,8 used,    188,1 buff/cache
+MiB Swap:   2048,0 total,   1643,0 free,    405,0 used.     37,2 avail Mem 
+working script:
+   7603 tycoon    20   0 2169676   2,1g   1648 R 100,0  55,6   4:19.13 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 2171128   2,1g   1648 R 100,0  55,6   4:19.31 mem.bash
+   2019 tycoon    20   0  905032  24856  20576 S   6,2   0,6   2:03.81 Xorg
+   2174 tycoon    20   0 4157904  90736  17816 S   6,2   2,3   2:43.02 gnome-shell
+   7915 tycoon    20   0   11856   3948   3232 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   4200   1716 S   0,0   0,1   0:04.58 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    110,4 free,   3506,6 used,    182,7 buff/cache
+MiB Swap:   2048,0 total,   1542,7 free,    505,2 used.     39,3 avail Mem 
+working script:
+   7603 tycoon    20   0 2271976   2,2g   1556 R  80,0  58,2   4:31.49 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 2273560   2,2g   1556 R 100,0  58,2   4:31.67 mem.bash
+   2174 tycoon    20   0 4157904  84336  11416 S  12,5   2,2   2:43.12 gnome-shell
+   4964 tycoon    20   0  821752  21736   3760 S   6,2   0,6   0:36.21 gnome-terminal-
+      1 root      20   0  176200   3564   1360 S   0,0   0,1   0:04.58 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    111,7 free,   3522,3 used,    165,7 buff/cache
+MiB Swap:   2048,0 total,   1452,5 free,    595,5 used.     35,4 avail Mem 
+working script:
+   7603 tycoon    20   0 2369656   2,3g   1496 R 100,0  60,7   4:43.27 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 2371240   2,3g   1496 R  93,8  60,7   4:43.44 mem.bash
+   2019 tycoon    20   0  904408  22376  19440 S  12,5   0,6   2:03.97 Xorg
+   2174 tycoon    20   0 4157904  86612  13688 S   6,2   2,2   2:43.20 gnome-shell
+      1 root      20   0  176200   2808    792 S   0,0   0,1   0:04.58 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    112,8 free,   3527,8 used,    159,1 buff/cache
+MiB Swap:   2048,0 total,   1368,5 free,    679,5 used.     33,4 avail Mem 
+working script:
+   7603 tycoon    20   0 2465752   2,3g   1496 R 100,0  63,2   4:54.84 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 2467204   2,3g   1496 R 100,0  63,2   4:55.03 mem.bash
+   2174 tycoon    20   0 4157912  88124  16272 S  12,5   2,3   2:43.29 gnome-shell
+     88 root      20   0       0      0      0 D   6,2   0,0   0:04.53 kswapd0
+   2019 tycoon    20   0  908424  22472  19508 D   6,2   0,6   2:04.03 Xorg
+   4964 tycoon    20   0  821752  22464   4480 S   6,2   0,6   0:36.27 gnome-terminal-
+
+system memory:
+MiB Mem :   3799,7 total,    107,3 free,   3525,8 used,    166,6 buff/cache
+MiB Swap:   2048,0 total,   1257,9 free,    790,1 used.     33,5 avail Mem 
+working script:
+   7603 tycoon    20   0 2573992   2,4g   1436 R 100,0  65,9   5:07.93 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 2576632   2,4g   1436 R 100,0  66,0   5:08.27 mem.bash
+   6999 tycoon    20   0 1783732 207192   3724 S  12,5   5,3   0:44.23 telegram-deskto
+   2019 tycoon    20   0  908696  22216  19324 S   6,2   0,6   2:04.12 Xorg
+   2174 tycoon    20   0 4157912  87352  16052 S   6,2   2,2   2:43.42 gnome-shell
+   7964 tycoon    20   0   11856   3716   3256 R   6,2   0,1   0:00.01 top
+
+system memory:
+MiB Mem :   3799,7 total,    112,5 free,   3514,9 used,    172,3 buff/cache
+MiB Swap:   2048,0 total,   1119,5 free,    928,5 used.     41,7 avail Mem 
+working script:
+   7603 tycoon    20   0 2702824   2,6g   1436 R  93,8  69,3   5:23.62 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 2704276   2,6g   1436 R 100,0  69,3   5:23.80 mem.bash
+     88 root      20   0       0      0      0 D   6,2   0,0   0:05.09 kswapd0
+   2019 tycoon    20   0  904616  22280  19496 S   6,2   0,6   2:04.22 Xorg
+   6999 tycoon    20   0 1783732 207192   3724 S   6,2   5,3   0:44.70 telegram-deskto
+      1 root      20   0  176200   3656   2480 S   0,0   0,1   0:04.58 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    114,0 free,   3515,5 used,    170,2 buff/cache
+MiB Swap:   2048,0 total,   1006,0 free,   1042,0 used.     41,6 avail Mem 
+working script:
+   7603 tycoon    20   0 2820964   2,7g   1424 R 100,0  72,3   5:37.94 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 2822020   2,7g   1424 D  46,7  72,3   5:38.06 mem.bash
+   7989 tycoon    20   0   11856   3632   3168 R  13,3   0,1   0:00.02 top
+      1 root      20   0  176200   2448   1792 S   0,0   0,1   0:04.58 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    112,6 free,   3522,1 used,    165,0 buff/cache
+MiB Swap:   2048,0 total,    907,7 free,   1140,2 used.     38,1 avail Mem 
+working script:
+   7603 tycoon    20   0 2919172   2,8g   1424 R 100,0  74,8   5:49.82 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 2920624   2,8g   1424 R 100,0  74,9   5:50.00 mem.bash
+   2019 tycoon    20   0  904696  23388  20560 S   6,2   0,6   2:04.37 Xorg
+      1 root      20   0  176200   1884   1432 S   0,0   0,0   0:04.58 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    115,9 free,   3514,0 used,    169,8 buff/cache
+MiB Swap:   2048,0 total,    765,4 free,   1282,6 used.     55,9 avail Mem 
+working script:
+   7603 tycoon    20   0 3038632   2,9g   1424 R 100,0  77,9   6:04.43 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 3040216   2,9g   1424 R 100,0  77,9   6:04.63 mem.bash
+     11 root      20   0       0      0      0 I   6,2   0,0   0:04.49 rcu_sched
+   2174 tycoon    20   0 4157904  79140  12632 S   6,2   2,0   2:43.80 gnome-shell
+   8013 tycoon    20   0   11856   3544   3084 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   1604   1248 S   0,0   0,0   0:04.58 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    107,8 free,   3522,9 used,    169,0 buff/cache
+MiB Swap:   2048,0 total,    677,5 free,   1370,5 used.     45,2 avail Mem 
+working script:
+   7603 tycoon    20   0 3138424   3,0g   1424 R  94,1  80,5   6:16.48 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 3139876   3,0g   1424 R  94,1  80,5   6:16.66 mem.bash
+      1 root      20   0  176200   1456   1100 S   0,0   0,0   0:04.58 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+
+system memory:
+MiB Mem :   3799,7 total,    115,6 free,   3546,8 used,    137,2 buff/cache
+MiB Swap:   2048,0 total,    599,5 free,   1448,5 used.     37,2 avail Mem 
+working script:
+   7603 tycoon    20   0 3233200   3,1g   1420 R 100,0  82,9   6:27.91 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 3234652   3,1g   1420 R 100,0  82,9   6:28.09 mem.bash
+   2174 tycoon    20   0 4157928  69952   7748 S   6,2   1,8   2:43.96 gnome-shell
+   8037 tycoon    20   0   11856   3656   3196 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   1452   1096 S   0,0   0,0   0:04.60 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    112,4 free,   3542,9 used,    144,4 buff/cache
+MiB Swap:   2048,0 total,    513,4 free,   1534,6 used.     39,6 avail Mem 
+working script:
+   7603 tycoon    20   0 3332596   3,1g   1420 R  93,8  83,9   6:39.94 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 3333916   3,1g   1420 R 100,0  83,6   6:40.12 mem.bash
+     88 root      20   0       0      0      0 D  18,8   0,0   0:06.65 kswapd0
+   8049 tycoon    20   0   11856   3588   3124 R  12,5   0,1   0:00.02 top
+   2019 tycoon    20   0  904616  11448   8680 S   6,2   0,3   2:04.71 Xorg
+   2174 tycoon    20   0 4157904  70872   9052 S   6,2   1,8   2:44.06 gnome-shell
+
+system memory:
+MiB Mem :   3799,7 total,    104,8 free,   3528,8 used,    166,1 buff/cache
+MiB Swap:   2048,0 total,    398,2 free,   1649,8 used.     40,8 avail Mem 
+working script:
+   7603 tycoon    20   0 3428296   3,1g   1420 R  88,2  83,4   6:51.54 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 3429748   3,1g   1420 R 100,0  83,4   6:51.73 mem.bash
+    178 root       0 -20       0      0      0 I   6,2   0,0   0:00.68 kworker/0:1H-events_highpri
+   2019 tycoon    20   0  904408  11576   8732 S   6,2   0,3   2:04.79 Xorg
+   2174 tycoon    20   0 4157984  69936   8112 S   6,2   1,8   2:44.14 gnome-shell
+   3462 tycoon    20   0  960604   1932   1924 S   6,2   0,0   0:14.17 evince
+
+system memory:
+MiB Mem :   3799,7 total,    121,8 free,   3517,8 used,    160,1 buff/cache
+MiB Swap:   2048,0 total,    296,7 free,   1751,2 used.     56,9 avail Mem 
+working script:
+   7603 tycoon    20   0 3522544   3,1g   1420 R 100,0  83,1   7:03.03 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 3524524   3,1g   1420 R  94,1  83,2   7:03.27 mem.bash
+   2596 tycoon    20   0   12360   1532    964 D   5,9   0,0   0:05.28 jetbrains-toolb
+      1 root      20   0  176200   1792   1468 S   0,0   0,0   0:04.60 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    111,2 free,   3531,8 used,    156,7 buff/cache
+MiB Swap:   2048,0 total,    218,2 free,   1829,8 used.     42,6 avail Mem 
+working script:
+   7603 tycoon    20   0 3622732   3,1g   1420 R 100,0  83,7   7:15.22 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 3624184   3,1g   1420 R 100,0  83,8   7:15.40 mem.bash
+   2174 tycoon    20   0 4157888  73844  12040 S   6,2   1,9   2:44.37 gnome-shell
+   4964 tycoon    20   0  821752   6564   3344 S   6,2   0,2   0:36.59 gnome-terminal-
+      1 root      20   0  176200   1292    968 S   0,0   0,0   0:04.60 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    113,9 free,   3558,2 used,    127,5 buff/cache
+MiB Swap:   2048,0 total,    140,7 free,   1907,2 used.     32,6 avail Mem 
+working script:
+   7603 tycoon    20   0 3726484   3,1g   1420 R 100,0  84,4   7:27.80 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 3728464   3,1g   1420 R 100,0  84,2   7:28.05 mem.bash
+     88 root      20   0       0      0      0 R  18,8   0,0   0:07.85 kswapd0
+   2019 tycoon    20   0  904520  11344   8584 D   6,2   0,3   2:05.03 Xorg
+   2596 tycoon    20   0   12360   1480    912 D   6,2   0,0   0:05.50 jetbrains-toolb
+      1 root      20   0  176200   1272    960 S   0,0   0,0   0:04.60 systemd
+
+system memory:
+MiB Mem :   3799,7 total,     92,9 free,   3558,3 used,    148,5 buff/cache
+MiB Swap:   2048,0 total,     13,5 free,   2034,5 used.     22,0 avail Mem 
+working script:
+   7603 tycoon    20   0 3856636   3,1g   1416 R  14,4  84,0   7:43.83 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7603 tycoon    20   0 3861652   3,1g   1416 R  87,5  84,1   7:44.44 mem.bash
+     88 root      20   0       0      0      0 S  31,2   0,0   0:08.43 kswapd0
+   2596 tycoon    20   0   12360   1452    884 D   6,2   0,0   0:05.64 jetbrains-toolb
+   8111 tycoon    20   0   11856   3584   3120 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200    376    176 S   0,0   0,0   0:04.60 systemd
+
+system memory:
+MiB Mem :   3799,7 total,     89,1 free,   3610,8 used,     99,8 buff/cache
+MiB Swap:   2048,0 total,      0,0 free,   2048,0 used.     34,2 avail Mem 
+working script:
+   7603 tycoon    20   0 3928444   3,2g      0 D   0,1  85,5   7:58.80 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    758 root      20   0  239120    512    512 S   0,2   0,0   0:03.24 polkitd
+   8142 tycoon    20   0   11856   3884   3176 R   0,2   0,1   0:01.23 top
+      1 root      20   0  176200   3956   3168 D   0,0   0,1   0:10.72 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+
+
+
+
+[ 7478.063135] [   7603]  1000  7603   982639   832536  7909376   147803             0 mem.bash
+[ 7478.063151] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service,task=mem.bash,pid=7603,uid=1000
+[ 7478.063167] Out of memory: Killed process 7603 (mem.bash) total-vm:3930556kB, anon-rss:3330144kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:7724kB oom_score_adj:0
+[ 7478.403176] oom_reaper: reaped process 7603 (mem.bash), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+
+
+
+
+array size: 50000000
+
+
+
+Второй этап
+
+
+
+
+
+
+system memory:
+MiB Mem :   3799,7 total,   1519,9 free,    965,6 used,   1314,2 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   2495,4 avail Mem 
+working scripts:
+  11229 tycoon    20   0   52924  46400   2836 R  94,1   1,2   0:05.37 mem.bash
+  11230 tycoon    20   0   52264  45732   2980 R  88,2   1,2   0:05.31 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0   54508  47984   2836 R  94,1   1,2   0:05.57 mem.bash
+  11230 tycoon    20   0   53584  47316   2980 R  88,2   1,2   0:05.49 mem2.bash
+      1 root      20   0  176200   7024   4624 S   0,0   0,2   0:13.18 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,   1347,9 free,   1127,8 used,   1324,0 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   2323,5 avail Mem 
+working scripts:
+  11229 tycoon    20   0  136216 129620   2900 R  88,2   3,3   0:15.69 mem.bash
+  11230 tycoon    20   0  134632 128100   2980 R  82,4   3,3   0:15.58 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0  137536 131204   2900 R  88,2   3,4   0:15.86 mem.bash
+  11230 tycoon    20   0  136084 129684   2980 R  88,2   3,3   0:15.77 mem2.bash
+   2174 tycoon    20   0 4180872 191584  56044 S   5,9   4,9   6:16.30 gnome-shell
+   6999 tycoon    20   0 1811796 182656  77164 S   5,9   4,7   4:12.99 telegram-deskto
+  11259 tycoon    20   0   11856   3976   3260 R   5,9   0,1   0:00.01 top
+
+system memory:
+MiB Mem :   3799,7 total,   1210,6 free,   1274,2 used,   1314,9 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   2186,1 avail Mem 
+working scripts:
+  11229 tycoon    20   0  211588 205124   2900 R  94,1   5,3   0:25.16 mem.bash
+  11230 tycoon    20   0  208420 202020   2980 R  94,1   5,2   0:24.91 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11230 tycoon    20   0  210004 203604   2980 R  94,1   5,2   0:25.11 mem2.bash
+  11229 tycoon    20   0  212908 206444   2900 R  82,4   5,3   0:25.32 mem.bash
+   2174 tycoon    20   0 4180860 190904  55484 S   5,9   4,9   6:17.70 gnome-shell
+   4964 tycoon    20   0  823836  37448  21264 S   5,9   1,0   1:13.10 gnome-terminal-
+      1 root      20   0  176200   7024   4624 S   0,0   0,2   0:13.20 systemd
+
+system memory:
+MiB Mem :   3799,7 total,   1042,5 free,   1443,0 used,   1314,2 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   2018,1 avail Mem 
+working scripts:
+  11229 tycoon    20   0  298048 291452   2900 R  83,3   7,5   0:35.81 mem.bash
+  11230 tycoon    20   0  294484 288084   2980 R  83,3   7,4   0:35.61 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0  299632 293300   2900 R  94,1   7,5   0:36.01 mem.bash
+  11230 tycoon    20   0  295936 289404   2980 R  82,4   7,4   0:35.78 mem2.bash
+   2174 tycoon    20   0 4180824 190824  55436 S   5,9   4,9   6:17.77 gnome-shell
+   4964 tycoon    20   0  823836  37448  21264 S   5,9   1,0   1:13.12 gnome-terminal-
+  11291 tycoon    20   0   11856   3856   3136 R   5,9   0,1   0:00.01 top
+
+system memory:
+MiB Mem :   3799,7 total,    870,7 free,   1610,7 used,   1318,3 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   1846,3 avail Mem 
+working scripts:
+  11230 tycoon    20   0  380152 373884   2980 R 100,0   9,6   0:46.27 mem2.bash
+  11229 tycoon    20   0  383980 377516   2900 R  94,1   9,7   0:46.40 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11230 tycoon    20   0  381868 375468   2980 R  94,1   9,7   0:46.47 mem2.bash
+  11229 tycoon    20   0  385300 378836   2900 R  88,2   9,7   0:46.57 mem.bash
+  11303 tycoon    20   0   11856   3980   3264 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200   7024   4624 S   0,0   0,2   0:13.20 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    701,4 free,   1779,8 used,   1318,4 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   1677,0 avail Mem 
+working scripts:
+  11229 tycoon    20   0  469912 463316   2900 R  94,1  11,9   0:56.98 mem.bash
+  11230 tycoon    20   0  466348 459948   2980 R  82,4  11,8   0:56.98 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0  471364 464900   2900 R  94,1  11,9   0:57.16 mem.bash
+  11230 tycoon    20   0  467800 461268   2980 R  88,2  11,9   0:57.15 mem2.bash
+  11316 tycoon    20   0   11856   3964   3248 R  11,8   0,1   0:00.02 top
+      1 root      20   0  176200   7024   4624 S   0,0   0,2   0:13.20 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    533,1 free,   1948,1 used,   1318,4 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   1508,7 avail Mem 
+working scripts:
+  11229 tycoon    20   0  556504 549908   2900 R  94,1  14,1   1:07.64 mem.bash
+  11230 tycoon    20   0  552016 545748   2980 R  88,2  14,0   1:07.64 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0  558088 551492   2900 R  83,3  14,2   1:07.84 mem.bash
+  11230 tycoon    20   0  553468 547068   2980 R  83,3  14,1   1:07.81 mem2.bash
+   2174 tycoon    20   0 4180848 190904  55456 S   5,6   4,9   6:18.07 gnome-shell
+  10012 root      20   0       0      0      0 I   5,6   0,0   0:03.15 kworker/0:1-events
+      1 root      20   0  176200   7024   4624 S   0,0   0,2   0:13.20 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    365,0 free,   2116,3 used,   1318,4 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   1340,6 avail Mem 
+working scripts:
+  11229 tycoon    20   0  643096 636764   2900 R 100,0  16,4   1:18.33 mem.bash
+  11230 tycoon    20   0  637684 631284   2980 R  88,2  16,2   1:18.28 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11230 tycoon    20   0  639004 632604   2980 R  88,2  16,3   1:18.45 mem2.bash
+  11229 tycoon    20   0  644548 638084   2900 R  82,4  16,4   1:18.49 mem.bash
+  11341 tycoon    20   0   11856   3996   3280 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200   7024   4624 S   0,0   0,2   0:13.20 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    196,4 free,   2284,8 used,   1318,4 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   1172,1 avail Mem 
+working scripts:
+  11230 tycoon    20   0  724012 717612   2980 R 100,0  18,4   1:29.01 mem2.bash
+  11229 tycoon    20   0  729160 722564   2900 R  93,8  18,6   1:28.92 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11230 tycoon    20   0  725728 719196   2980 R  94,1  18,5   1:29.22 mem2.bash
+  11229 tycoon    20   0  730612 724148   2900 R  88,2  18,6   1:29.09 mem.bash
+  11353 tycoon    20   0   11856   4044   3328 R  11,8   0,1   0:00.02 top
+   6999 tycoon    20   0 1820040 182588  77064 S   5,9   4,7   4:13.72 telegram-deskto
+      1 root      20   0  176200   7024   4624 S   0,0   0,2   0:13.20 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    291,7 free,   2452,7 used,   1055,3 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.   1006,6 avail Mem 
+working scripts:
+  11230 tycoon    20   0  810076 803676   2980 R  83,3  20,7   1:39.73 mem2.bash
+  11229 tycoon    20   0  815092 808628   2900 R  77,8  20,8   1:39.51 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11230 tycoon    20   0  811660 805260   2980 R  88,9  20,7   1:39.93 mem2.bash
+  11229 tycoon    20   0  816544 809948   2900 R  83,3  20,8   1:39.68 mem.bash
+  11367 tycoon    20   0   11856   3856   3136 R   5,6   0,1   0:00.01 top
+      1 root      20   0  176200   7020   4624 S   0,0   0,2   0:13.21 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    122,7 free,   2621,2 used,   1055,8 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.    837,7 avail Mem 
+working scripts:
+  11229 tycoon    20   0  901948 895484   2900 R  94,1  23,0   1:50.23 mem.bash
+  11230 tycoon    20   0  895480 889212   2980 R  88,2  22,9   1:50.38 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0  903532 897068   2900 R  88,2  23,1   1:50.42 mem.bash
+  11230 tycoon    20   0  896932 890532   2980 R  88,2  22,9   1:50.56 mem2.bash
+      1 root      20   0  176200   7020   4624 S   0,0   0,2   0:13.21 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    105,9 free,   2791,3 used,    902,5 buff/cache
+MiB Swap:   2048,0 total,   1028,0 free,   1020,0 used.    670,5 avail Mem 
+working scripts:
+  11230 tycoon    20   0  981940 975536   2976 R  88,9  25,1   2:01.17 mem2.bash
+  11229 tycoon    20   0  988276 981808   2896 R  83,3  25,2   2:00.88 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11230 tycoon    20   0  983524 977120   2976 R  94,1  25,1   2:01.37 mem2.bash
+  11229 tycoon    20   0  989728 983128   2896 R  88,2  25,3   2:01.05 mem.bash
+      1 root      20   0  176200   7016   4624 S   0,0   0,2   0:13.21 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    106,0 free,   2956,5 used,    737,2 buff/cache
+MiB Swap:   2048,0 total,   1026,4 free,   1021,6 used.    506,0 avail Mem 
+working scripts:
+  11229 tycoon    20   0 1073812   1,0g   2892 R  94,1  27,4   2:11.45 mem.bash
+  11230 tycoon    20   0 1066288   1,0g   2972 R  76,5  27,2   2:11.66 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 1075396   1,0g   2892 R  83,3  27,5   2:11.65 mem.bash
+  11230 tycoon    20   0 1067608   1,0g   2972 R  83,3  27,3   2:11.83 mem2.bash
+      1 root      20   0  176200   7016   4624 S   0,0   0,2   0:13.21 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    121,7 free,   3121,6 used,    556,3 buff/cache
+MiB Swap:   2048,0 total,   1023,9 free,   1024,1 used.    344,8 avail Mem 
+working scripts:
+  11230 tycoon    20   0 1150900   1,1g   2972 R  88,9  29,4   2:22.20 mem2.bash
+  11229 tycoon    20   0 1160404   1,1g   2892 R  83,3  29,7   2:22.15 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11230 tycoon    20   0 1152484   1,1g   2972 R  88,9  29,5   2:22.39 mem2.bash
+  11229 tycoon    20   0 1161724   1,1g   2892 R  83,3  29,7   2:22.33 mem.bash
+      1 root      20   0  176200   6952   4564 S   0,0   0,2   0:13.21 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    124,3 free,   3287,2 used,    388,2 buff/cache
+MiB Swap:   2048,0 total,   1021,9 free,   1026,1 used.    183,3 avail Mem 
+working scripts:
+  11229 tycoon    20   0 1245148   1,2g   2712 R  88,2  31,8   2:32.64 mem.bash
+  11230 tycoon    20   0 1235644   1,2g   2792 R  88,2  31,6   2:32.74 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 1246732   1,2g   2712 R  88,9  31,9   2:32.84 mem.bash
+  11230 tycoon    20   0 1237228   1,2g   2792 R  88,9  31,6   2:32.93 mem2.bash
+      1 root      20   0  176200   6788   4400 S   0,0   0,2   0:13.21 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    109,7 free,   3452,4 used,    237,6 buff/cache
+MiB Swap:   2048,0 total,   1017,2 free,   1030,8 used.     62,7 avail Mem 
+working scripts:
+  11229 tycoon    20   0 1331080   1,3g   2216 R  88,2  34,0   2:43.27 mem.bash
+  11230 tycoon    20   0 1321180   1,3g   2292 R  76,5  33,8   2:43.41 mem2.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 1332532   1,3g   2216 R  88,2  34,1   2:43.45 mem.bash
+  11230 tycoon    20   0 1322764   1,3g   2292 R  88,2  33,8   2:43.60 mem2.bash
+   2019 tycoon    20   0  914740  33664  18224 S   5,9   0,9   4:27.24 Xorg
+   9615 root      20   0       0      0      0 I   5,9   0,0   0:01.40 kworker/u8:3-events_power_efficient
+  11448 tycoon    20   0   11856   3960   3244 R   5,9   0,1   0:00.01 top
+
+system memory:
+MiB Mem :   3799,7 total,    118,2 free,   3534,0 used,    147,5 buff/cache
+MiB Swap:   2048,0 total,    816,4 free,   1231,6 used.     40,0 avail Mem 
+working scripts:
+  11230 tycoon    20   0 1469020   1,4g    956 R  61,5  37,5   3:01.92 mem2.bash
+  11229 tycoon    20   0 1481164   1,4g    916 R  57,7  37,9   3:01.88 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11230 tycoon    20   0 1471000   1,4g    956 R 100,0  37,6   3:02.19 mem2.bash
+  11229 tycoon    20   0 1483144   1,4g    916 R  94,1  37,9   3:02.12 mem.bash
+  11461 tycoon    20   0   11856   3724   3004 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200   3260    872 S   0,0   0,1   0:13.21 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    118,4 free,   3527,3 used,    153,9 buff/cache
+MiB Swap:   2048,0 total,    525,7 free,   1522,3 used.     44,7 avail Mem 
+working scripts:
+  11230 tycoon    20   0 1619236   1,5g    840 R  76,2  41,1   3:20.73 mem2.bash
+  11229 tycoon    20   0 1632040   1,5g    848 R  66,7  41,4   3:20.57 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11230 tycoon    20   0 1622800   1,5g    840 R  94,1  41,0   3:21.18 mem2.bash
+  11229 tycoon    20   0 1634812   1,5g    848 R  88,2  41,3   3:20.93 mem.bash
+   2591 tycoon    20   0 3079056  15776      0 S   5,9   0,4   0:46.71 jetbrains-toolb
+  11473 tycoon    20   0   11856   3668   2952 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200   2956    568 S   0,0   0,1   0:13.21 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    106,1 free,   3560,2 used,    133,4 buff/cache
+MiB Swap:   2048,0 total,    251,2 free,   1796,8 used.     26,4 avail Mem 
+working scripts:
+  11230 tycoon    20   0 1808656   1,5g    952 R   8,1  40,9   3:44.50 mem2.bash
+  11229 tycoon    20   0 1808128   1,5g    868 R   7,6  40,8   3:42.50 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     88 root      20   0       0      0      0 S  65,0   0,0  24:16.15 kswapd0
+    901 root      20   0  895536   1380      0 S   6,5   0,0   2:02.32 containerd
+    753 root      20   0   81828    120      0 S   0,9   0,0   0:11.49 irqbalance
+   1083 root      20   0  934976   9112      0 S   0,7   0,2   0:26.83 dockerd
+    291 root       0 -20       0      0      0 S   0,7   0,0   0:10.74 loop7
+
+system memory:
+MiB Mem :   3799,7 total,   1326,5 free,   2194,6 used,    278,6 buff/cache
+MiB Swap:   2048,0 total,    264,4 free,   1783,6 used.   1318,6 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2112388   1,8g   1544 R  88,2  47,4   4:23.83 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2113840   1,8g   1544 R 100,0  47,4   4:24.01 mem.bash
+      1 root      20   0  176200   4556   3108 S   0,0   0,1   0:15.27 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+
+system memory:
+MiB Mem :   3799,7 total,   1129,9 free,   2304,4 used,    365,4 buff/cache
+MiB Swap:   2048,0 total,    281,4 free,   1766,6 used.   1198,9 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2198452   1,8g   1544 R 100,0  49,6   4:34.43 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2199904   1,8g   1544 R 100,0  49,6   4:34.61 mem.bash
+  11548 tycoon    20   0   11856   3976   3256 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   5692   3724 S   0,0   0,1   0:15.29 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,   1012,1 free,   2377,4 used,    410,2 buff/cache
+MiB Swap:   2048,0 total,    292,9 free,   1755,1 used.   1130,9 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2284780   1,9g   1544 R  93,8  51,8   4:45.04 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2286232   1,9g   1544 R 100,0  51,8   4:45.22 mem.bash
+  11577 tycoon    20   0   11856   3940   3224 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   6352   4272 S   0,0   0,2   0:15.30 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    883,3 free,   2478,7 used,    437,7 buff/cache
+MiB Swap:   2048,0 total,    304,2 free,   1743,8 used.   1026,2 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2371504   2,0g   1544 R 100,0  54,0   4:55.70 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2372956   2,0g   1544 R 100,0  54,1   4:55.88 mem.bash
+  11605 tycoon    20   0   11856   4036   3320 R  12,5   0,1   0:00.02 top
+   6999 tycoon    20   0 1820040  33512  21500 S   6,2   0,9   4:20.78 telegram-deskto
+      1 root      20   0  176200   6352   4272 S   0,0   0,2   0:15.30 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    791,4 free,   2567,1 used,    441,1 buff/cache
+MiB Swap:   2048,0 total,    304,2 free,   1743,8 used.    936,5 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2460604   2,1g   1544 R 100,0  56,3   5:06.38 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2462056   2,1g   1544 R 100,0  56,4   5:06.56 mem.bash
+  11618 tycoon    20   0   11856   4040   3320 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   6352   4272 S   0,0   0,2   0:15.30 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    695,7 free,   2658,3 used,    445,7 buff/cache
+MiB Swap:   2048,0 total,    310,2 free,   1737,8 used.    840,9 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2550100   2,2g   1544 R 100,0  58,6   5:17.06 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2551552   2,2g   1544 R  94,1  58,7   5:17.24 mem.bash
+   6999 tycoon    20   0 1820040  34192  21500 S   5,9   0,9   4:21.04 telegram-deskto
+  11631 tycoon    20   0   11856   3848   3132 R   5,9   0,1   0:00.01 top
+      1 root      20   0  176200   6352   4272 S   0,0   0,2   0:15.30 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    608,6 free,   2745,4 used,    445,7 buff/cache
+MiB Swap:   2048,0 total,    310,2 free,   1737,8 used.    753,9 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2639860   2,3g   1544 R  93,8  60,9   5:27.73 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2641312   2,3g   1544 R 100,0  61,0   5:27.91 mem.bash
+  11643 tycoon    20   0   11856   4000   3284 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   6352   4272 S   0,0   0,2   0:15.30 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    499,9 free,   2847,1 used,    452,7 buff/cache
+MiB Swap:   2048,0 total,    310,9 free,   1737,1 used.    652,0 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2729092   2,3g   1544 R  93,8  63,2   5:38.36 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2730544   2,3g   1544 R 100,0  63,3   5:38.54 mem.bash
+      1 root      20   0  176200   6576   4340 S   0,0   0,2   0:15.31 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+
+system memory:
+MiB Mem :   3799,7 total,    406,5 free,   2940,5 used,    452,7 buff/cache
+MiB Swap:   2048,0 total,    310,9 free,   1737,1 used.    558,7 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2818456   2,4g   1544 R  88,2  65,5   5:49.00 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2819908   2,4g   1544 R  93,8  65,5   5:49.18 mem.bash
+  11705 tycoon    20   0   11856   3948   3228 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   6580   4340 S   0,0   0,2   0:15.31 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    337,7 free,   3009,2 used,    452,8 buff/cache
+MiB Swap:   2048,0 total,    310,9 free,   1737,1 used.    489,9 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2908348   2,5g   1544 R 100,0  67,8   5:59.67 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2909800   2,5g   1544 R 100,0  67,9   5:59.85 mem.bash
+   6999 tycoon    20   0 1820040  34244  21500 S   6,2   0,9   4:21.28 telegram-deskto
+      1 root      20   0  176200   6580   4340 S   0,0   0,2   0:15.31 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    243,7 free,   3097,9 used,    458,0 buff/cache
+MiB Swap:   2048,0 total,    311,2 free,   1736,8 used.    396,3 avail Mem 
+working scripts:
+  11229 tycoon    20   0 2997844   2,6g   1544 R 100,0  70,1   6:10.36 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 2999296   2,6g   1544 R  93,8  70,2   6:10.53 mem.bash
+   6999 tycoon    20   0 1820040  34244  21500 S   6,2   0,9   4:21.45 telegram-deskto
+      1 root      20   0  176200   6580   4340 S   0,0   0,2   0:15.31 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    159,8 free,   3184,3 used,    455,6 buff/cache
+MiB Swap:   2048,0 total,    311,7 free,   1736,3 used.    315,0 avail Mem 
+working scripts:
+  11229 tycoon    20   0 3085756   2,7g   1544 R 100,0  72,4   6:20.97 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 3087208   2,7g   1544 R 100,0  72,4   6:21.15 mem.bash
+    747 root      20   0  412840   6848   4824 S   6,2   0,2   0:15.91 NetworkManager
+      1 root      20   0  176200   6580   4340 S   0,0   0,2   0:15.31 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    124,2 free,   3267,8 used,    407,6 buff/cache
+MiB Swap:   2048,0 total,    297,0 free,   1751,0 used.    237,4 avail Mem 
+working scripts:
+  11229 tycoon    20   0 3181852   2,8g   1544 R 100,0  74,4   6:32.66 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 3183832   2,8g   1544 R  88,2  74,5   6:32.89 mem.bash
+   2596 tycoon    20   0   12180   1756    928 D   5,9   0,0   0:21.28 jetbrains-toolb
+   2634 tycoon    20   0 5175960  34612  25892 D   5,9   0,9   0:06.68 jetbrains-toolb
+      1 root      20   0  176200   6524   4340 S   0,0   0,2   0:15.31 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+
+system memory:
+MiB Mem :   3799,7 total,    104,7 free,   3342,5 used,    352,5 buff/cache
+MiB Swap:   2048,0 total,    279,1 free,   1768,9 used.    163,6 avail Mem 
+working scripts:
+  11229 tycoon    20   0 3273460   2,8g   1544 R  93,8  76,2   6:43.64 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 3274912   2,8g   1544 R  93,8  76,1   6:43.81 mem.bash
+     88 root      20   0       0      0      0 S   6,2   0,0  24:16.47 kswapd0
+   6999 tycoon    20   0 1820040  33912  21168 S   6,2   0,9   4:21.84 telegram-deskto
+  11767 tycoon    20   0   11856   3988   3272 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   6524   4340 S   0,0   0,2   0:15.31 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    115,8 free,   3413,7 used,    270,2 buff/cache
+MiB Swap:   2048,0 total,    259,1 free,   1788,9 used.     98,5 avail Mem 
+working scripts:
+  11229 tycoon    20   0 3364144   2,9g   1544 R  93,8  78,1   6:54.49 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 3365728   2,9g   1544 R 100,0  78,2   6:54.67 mem.bash
+  11780 tycoon    20   0   11856   3928   3212 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   6396   4212 S   0,0   0,2   0:15.31 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,    113,4 free,   3494,6 used,    191,7 buff/cache
+MiB Swap:   2048,0 total,    252,2 free,   1795,8 used.     57,0 avail Mem 
+working scripts:
+  11229 tycoon    20   0 3455488   3,0g   1544 R 100,0  80,3   7:05.38 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 3456940   3,0g   1544 R  93,8  80,3   7:05.55 mem.bash
+  11792 tycoon    20   0   11856   3984   3268 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   6048   3872 S   0,0   0,2   0:15.31 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+
+system memory:
+MiB Mem :   3799,7 total,     88,5 free,   3539,8 used,    171,4 buff/cache
+MiB Swap:   2048,0 total,     95,5 free,   1952,5 used.     22,1 avail Mem 
+working scripts:
+  11229 tycoon    20   0 3631972   2,9g   1160 R  65,4  79,2   7:27.01 mem.bash
+top 5 processes:
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11229 tycoon    20   0 3635140   2,9g   1160 R 100,0  79,3   7:27.41 mem.bash
+    314 root       0 -20       0      0      0 D   6,2   0,0   0:07.82 loop17
+   2596 tycoon    20   0   12180   1436    608 D   6,2   0,0   0:21.91 jetbrains-toolb
+  11806 tycoon    20   0   11856   3828   3112 R   6,2   0,1   0:00.01 top
+      1 root      20   0  176200   3140    964 S   0,0   0,1   0:15.32 systemd
+
+system memory:
+MiB Mem :   3799,7 total,    149,5 free,   3518,4 used,    131,8 buff/cache
+MiB Swap:   2048,0 total,      0,0 free,   2048,0 used.     64,9 avail Mem 
+working scripts:
+
+
+
+array 1 size:
+49000000
+
+array 2 size:
+24000000
+
+
+
+
+

@@ -11,6 +11,9 @@ while read line; do
 		"*" )
 			kill -USR2 $pid
 			;;
+		"-" )
+			kill -URG $pid
+			;;
 		"TERM" )
 			kill -SIGTERM $pid
 			break

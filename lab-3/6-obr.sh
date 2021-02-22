@@ -11,6 +11,10 @@ usr2()
 {
 	let val*=2
 }
+urg()
+{
+	let val-=2
+}
 term()
 {
 	echo "finished working by SIGTERM"
@@ -18,6 +22,7 @@ term()
 }
 trap 'usr1' USR1
 trap 'usr2' USR2
+trap 'urg' URG
 trap 'term' SIGTERM
 
 while [[ "$mode" == "working" ]]; do
